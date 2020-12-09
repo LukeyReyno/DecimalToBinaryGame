@@ -18,3 +18,8 @@ Uploading the bitstream to your Basys3 board will allow you to play a game
 <ul>- Reset Switch is number 15</ul> 
 <ul>- Switches 5 (MSB) to 0 (LSB) are used to input answer</ul> 
 <ul>- Center Button is used to submit answer (BTNC [U18]) </ul> </li>
+
+<li> <h2> Source Code </h2>
+<ul>- MyProjectModule.sv is the main module that manipulates the game</ul> 
+<ul>- SevenSegment.sv controls the seven segment display found on the Basys3 board</ul> 
+<ul>- MyProjectConst.xdc is the main constraint file (maps program to physical buttons/switches/LEDs)</ul> </li>
